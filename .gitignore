@@ -1,0 +1,81 @@
+ㄹ# Miscellaneous
+*.class
+*.log
+*.pyc
+*.sw
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Cursor IDE
+.cursor/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/build/
+/ios/build/
+**/ios/**/*.xcworkspace/
+
+# Firebase / FCM - Sensitive configuration files
+google-services.json
+**/android/app/google-services.json
+GoogleService-Info.plist
+**/ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+firebase.json
+firebase-debug.log
+.firebase/
+
+# API Keys and sensitive configuration
+*.env
+.env*
+**/android/key.properties
+**/android/keystore.properties
+**/ios/Runner/Config.plist
+**/ios/firebase_app_id_file.json
+
+# Coverage
+coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+
+# FVM (Flutter Version Management)
+.fvm/
