@@ -1,6 +1,7 @@
 # ChannelTalk SDK Flutter Sample Project
 
 Flutter sample project demonstrating how to use native ChannelTalk SDK in Flutter apps.
+([Korean Guide](./README.md#채널톡-sdk-flutter-sample-project))
 
 ## 📋 Project Overview
 
