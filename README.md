@@ -7,9 +7,8 @@ Flutter sample project demonstrating how to use native ChannelTalk SDK in Flutte
 This project was created to test how to use ChannelTalk SDK in Flutter. It provides practical implementation examples that Flutter developers can reference before adopting ChannelTalk SDK.
 
 ### ⚠️ Important Notice
-
-**ChannelTalk SDK does not officially support Flutter and is not optimized for Flutter.**  
-**This project is not an official support project, so the content may differ from the latest version.**
+**Channel Talk does not officially support a Flutter SDK, but we provide guides and sample projects to help our clients use it.**
+**Please understand that these guides and sample projects may not be updated as quickly as other resources.**
 
 This project is an **unofficial integration method** that implements bridge code to use native Android/iOS SDK in Flutter. 
 Please conduct thorough testing and verification before using in actual production environments.
@@ -275,8 +274,8 @@ Flutter 개발자들이 채널톡 SDK를 도입하기 전에 참고할 수 있�
 
 ### ⚠️ 주의사항
 
-**채널톡 SDK는 Flutter를 공식 지원하지 않고 있으며, Flutter에 최적화 되지 않았습니다.**  
-**이 프로젝트는 공식 지원 프로젝트가 아니기 때문에, 최신 버전과 내용이 다를 수 있습니다.**
+**정식으로 지원하는 채널톡 Flutter SDK는 없지만, 고객사들이 사용할 수 있도록 가이드 및 샘플 프로젝트를 제공해드리고 있습니다.**
+**다만, 가이드와 샘플 프로젝트는 빠르게 최신화되지 않을 수 있다는 점 양해 부탁드립니다.**
 
 이 프로젝트는 네이티브 Android/iOS SDK를 Flutter에서 사용할 수 있도록 브리지 코드를 구현한 **비공식 연동 방법**입니다. 
 실제 프로덕션 환경에서 사용하실 때는 충분한 테스트와 검증을 거치시기 바랍니다.
