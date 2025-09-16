@@ -223,5 +223,3 @@ if (!status['permissionGranted']) {
 For ChannelTalk technical support, please contact [ChannelTalk Support Center](https://channel.io).
 
 ---
-
-> ⚠️ **Note**: This project is not an official ChannelTalk supported project, but a custom implementation for Flutter. Some content may change according to the latest ChannelTalk SDK updates.
