@@ -46,7 +46,22 @@ This project was developed and tested in the following environment:
 
 #### 1. Add ChannelTalk Android SDK
 
-Add the following dependency to your `android/app/build.gradle.kts` file:
+First, add the ChannelTalk Maven repository to your `android/build.gradle.kts` file:
+
+```kotlin
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // ChannelTalk Android SDK repository (Required!)
+        maven { url = uri("https://maven.channel.io/maven2") }
+    }
+}
+```
+
+> **Important**: Without this repository configuration, you will encounter "ChannelTalk SDK not found" error.
+
+Then, add the following dependency to your `android/app/build.gradle.kts` file:
 
 ```kotlin
 dependencies {
