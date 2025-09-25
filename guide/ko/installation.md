@@ -46,7 +46,22 @@
 
 #### 1. 채널톡 Android SDK 추가
 
-`android/app/build.gradle.kts` 파일에 다음 의존성을 추가하세요:
+먼저 `android/build.gradle.kts` 파일에 채널톡 Maven 저장소를 추가하세요:
+
+```kotlin
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // 채널톡 Android SDK 저장소 (필수!)
+        maven { url = uri("https://maven.channel.io/maven2") }
+    }
+}
+```
+
+> **중요**: 이 저장소 설정이 없으면 "채널톡 SDK를 찾을 수 없습니다" 오류가 발생합니다.
+
+그 다음, `android/app/build.gradle.kts` 파일에 다음 의존성을 추가하세요:
 
 ```kotlin
 dependencies {
