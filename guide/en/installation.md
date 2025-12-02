@@ -30,7 +30,7 @@ This project was developed and tested in the following environment:
 - **Compile SDK**: API 35
 
 ### ChannelTalk SDK
-- **Android SDK**: 12.13.0
+- **Android SDK**: 13.1.1
 - **iOS SDK**: Latest (version unspecified - automatic latest version)
 
 ## ✅ Installation Requirements
