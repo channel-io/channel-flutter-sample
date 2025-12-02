@@ -103,7 +103,7 @@ channeltalk_sample/
 - **Google Services Plugin**: Latest (automatic)
 
 #### ChannelIO SDK
-- **ChannelTalk Android SDK**: 12.13.0
+- **ChannelTalk Android SDK**: 13.1.1
 - **ChannelTalk iOS SDK**: Latest (automatic latest version)
 
 ## 🚀 SDK Guide
@@ -370,7 +370,7 @@ channeltalk_sample/
 - **Google Services Plugin**: Latest (자동)
 
 #### ChannelIO SDK
-- **채널톡 Android SDK**: 12.13.0
+- **채널톡 Android SDK**: 13.1.1
 - **채널톡 iOS SDK**: Latest (자동 최신 버전)
 
 ## 🚀 SDK 가이드
