@@ -30,7 +30,7 @@
 - **Compile SDK**: API 35
 
 ### 채널톡 SDK
-- **Android SDK**: 13.1.1
+- **Android SDK**: 13.1.2
 - **iOS SDK**: Latest (버전 미지정 - 최신 버전 자동 사용)
 
 ## ✅ 설치 요구사항
