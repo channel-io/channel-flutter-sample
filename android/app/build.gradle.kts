@@ -49,7 +49,7 @@ flutter {
 
 dependencies {
     // ChannelTalk Android SDK
-    implementation("io.channel:plugin-android:12.13.0")
+    implementation("io.channel:plugin-android:13.1.2")
     
     // Firebase BOM: BOM declaration for version management
     // Required for FlutterFirebaseMessagingService inheritance
