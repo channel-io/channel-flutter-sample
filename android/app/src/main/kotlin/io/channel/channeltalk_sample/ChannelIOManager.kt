@@ -188,14 +188,14 @@ class ChannelIOManager(
                     setMemberId(it)
                 }
 
-                call.argument<String>("language")?.let { 
-                    val lang = when(it) {
+                call.argument<String>("language")?.let {
+                    val lang = when (it) {
                         "ko" -> Language.KOREAN
                         "en" -> Language.ENGLISH
                         "ja" -> Language.JAPANESE
-                        else -> Language.KOREAN
+                        else -> null
                     }
-                    setLanguage(lang)
+                    lang?.let(::setLanguage)
                 }
 
                 call.argument<String>("appearance")?.let {

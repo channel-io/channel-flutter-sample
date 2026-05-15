@@ -80,7 +80,7 @@ class ChannelIOManager {
   ///
   /// [pluginKey]: ChannelIO plugin key
   /// [memberId]: User ID (optional)
-  /// [language]: Language setting (optional, default: 'ko')
+  /// [language]: Language setting (optional, 'ko' | 'en' | 'ja'). When omitted, the SDK falls back to the device language.
   /// [appearance]: Dark mode (optional, 'light', 'dark', 'system')
   /// [hideDefaultLauncher]: Hide default launcher button (optional, default: false)
   /// [hidePopup]: Hide popup (optional, default: false)
@@ -89,7 +89,7 @@ class ChannelIOManager {
   Future<Map<String, dynamic>> boot({
     required String pluginKey,
     String? memberId,
-    String? language = 'ko',
+    String? language,
     String? appearance,
     bool hideDefaultLauncher = false,
     bool hidePopup = false,

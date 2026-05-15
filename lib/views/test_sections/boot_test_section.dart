@@ -151,7 +151,7 @@ class _BootTestSectionState extends State<BootTestSection>
       final bootRequest = {
         'pluginKey': widget.currentPluginKey,
         'memberId': null, // No memberId in anonymous boot
-        'language': 'ko',
+        'language': null,
         'profile': profileData,
         'channelButtonOption': channelButtonOption,
         'bubbleOption': bubbleOption,
@@ -243,7 +243,7 @@ class _BootTestSectionState extends State<BootTestSection>
       final bootRequest = {
         'pluginKey': widget.currentPluginKey,
         'memberId': memberIdInput,
-        'language': 'ko',
+        'language': null,
         'profile': profileData,
         'channelButtonOption': channelButtonOption,
         'bubbleOption': bubbleOption,

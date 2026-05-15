@@ -182,7 +182,7 @@ The Flutter layer ChannelIOManager is implemented using the Singleton pattern an
 Future<Map<String, dynamic>> boot({
   required String pluginKey,
   String? memberId,
-  String? language = 'ko',
+  String? language, // 'ko' | 'en' | 'ja'. Omit to use the device language.
   // ... other options
 })
 

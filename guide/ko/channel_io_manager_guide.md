@@ -182,7 +182,7 @@ Flutter 레이어의 ChannelIOManager는 Singleton 패턴으로 구현되어 있
 Future<Map<String, dynamic>> boot({
   required String pluginKey,
   String? memberId,
-  String? language = 'ko',
+  String? language, // 'ko' | 'en' | 'ja'. 생략하면 기기 언어를 사용합니다.
   // ... 기타 옵션들
 })
 
