@@ -237,7 +237,7 @@ class ChannelIOManager: NSObject, CHTChannelPluginDelegate {
             case "ja":
                 bootConfig.language = .japanese
             default:
-                bootConfig.language = .korean
+                break
             }
         }
         
